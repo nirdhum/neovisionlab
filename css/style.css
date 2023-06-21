@@ -37,6 +37,8 @@ body {
     color: #525FE1;
 }
 
+
+
 .section-hero {
     background: #eeeffc;
     padding: 9rem 0 0;
@@ -72,7 +74,7 @@ body {
     overflow: hidden;
 }
 
-span {
+.words span {
     font-size: 4.4rem;
     display: inline-block;
     height: 100%;
@@ -81,23 +83,9 @@ span {
     animation-delay: 1s, 2s;
 }
 
-/* span::before {
-    animation-delay: 8s;
-} */
-
-span:nth-child(1) {
+.words span:nth-child(odd) {
     color: #525FE1;
 }
-
-span:nth-child(3) {
-    color: #525FE1;
-}
-
-span:nth-child(5) {
-    color: #525FE1;
-}
-
-
 
 @keyframes spin_words {
     10% {
@@ -128,8 +116,12 @@ span:nth-child(5) {
         transform: translateY(-460%);
     }
 
-    100% {
+    95% {
         transform: translateY(10%);
+    }
+
+    100% {
+        transform: translateY(0%);
     }
 }
 
@@ -180,4 +172,42 @@ span:nth-child(5) {
 
 .hero-img {
     width: 100%;
+}
+
+.tech-preview {
+    display: flex;
+    margin-top: 6.4rem;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tech-icons {
+    display: flex;
+}
+
+.tech-icon {
+    height: 4.2rem;
+    width: 4.2rem;
+    border-radius: 50%;
+    margin-right: -1rem;
+    border: 4px solid #eeeffc;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.tech-icon:last-child {
+    margin: 0;
+}
+
+.tech-icon:hover {
+    z-index: 10;
+    transform: scale(1.1);
+    border: none;
+    outline: none;
+}
+
+.tech-text {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #39439e;
 }
