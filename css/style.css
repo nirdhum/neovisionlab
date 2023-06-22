@@ -19,6 +19,7 @@ body {
     line-height: 1;
     font-weight: 400;
     color: #555;
+    background: #eeeffc;
 }
 
 .font-Inter {
@@ -37,26 +38,42 @@ body {
     color: #525FE1;
 }
 
-
-
-.section-hero {
-    background: #eeeffc;
-    padding: 9rem 0 0;
-    /* height: 100vh; */
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 1.6rem 3.2rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
 }
 
-.hero {
-    max-width: 144rem;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 9rem;
-    align-items: center;
+.btn-primary:link,
+.btn-primary:visited {
+    background: #525FE1;
+    color: #fff;
 }
 
-/* .hero-textBox {
-    
-} */
+.btn-primary:hover,
+.btn-primary:active {
+    background: #39439e;
+    color: #fff;
+
+}
+
+.btn-secondary:link,
+.btn-secondary:visited {
+    /* border: 2px solid #525FE1; */
+    color: #525FE1;
+    background: #fff;
+}
+
+.btn-secondary:hover,
+.btn-secondary:active {
+    box-shadow: inset 0 0 0 3px #525FE1;
+    background: transparent;
+}
 
 .heading-primary {
     height: 12rem;
@@ -69,6 +86,59 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Nav section */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    /*Because we want nav to be sticky so we gibe a specific heightr*/
+    height: 9.6rem;
+    padding: 0 6.4rem;
+    width: 90%;
+    /* margin: 2rem auto 0; */
+    border-radius: 1rem;
+    z-index: 10;
+    box-shadow: 0 2px 8px #525ee17e;
+    position: fixed;
+    top: 2rem;
+}
+
+.logo {
+    height: 5.4rem;
+}
+
+/* Hero section */
+main {
+    margin-top: 15rem;
+}
+
+.section-hero {
+    padding: 4.8rem 0 0;
+    /* height: 100vh; */
+}
+
+.hero {
+    max-width: 144rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9rem;
+    align-items: center;
+}
+
+/* .hero-textBox {
+    
+} */
 
 .words {
     overflow: hidden;
@@ -133,43 +203,6 @@ body {
     /* font-weight: 400; */
 }
 
-.btn:link,
-.btn:visited {
-    display: inline-block;
-    font-size: 2rem;
-    font-weight: 500;
-    padding: 1.6rem 3.2rem;
-    border-radius: 1rem;
-    text-decoration: none;
-    transition: all 0.3s ease-in-out;
-}
-
-.btn-primary:link,
-.btn-primary:visited {
-    background: #525FE1;
-    color: #fff;
-}
-
-.btn-primary:hover,
-.btn-primary:active {
-    background: #39439e;
-    color: #fff;
-
-}
-
-.btn-secondary:link,
-.btn-secondary:visited {
-    /* border: 2px solid #525FE1; */
-    color: #525FE1;
-    background: #fff;
-}
-
-.btn-secondary:hover,
-.btn-secondary:active {
-    box-shadow: inset 0 0 0 3px #525FE1;
-    background: transparent;
-}
-
 .hero-img {
     width: 100%;
 }
@@ -183,6 +216,7 @@ body {
 
 .tech-icons {
     display: flex;
+    cursor: pointer;
 }
 
 .tech-icon {
@@ -208,6 +242,8 @@ body {
 
 .tech-text {
     font-size: 1.8rem;
-    font-weight: 700;
+    font-weight: 500;
     color: #39439e;
+    text-decoration: none;
+    letter-spacing: 1px;
 }
