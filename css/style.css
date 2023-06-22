@@ -335,34 +335,71 @@ main {
     letter-spacing: 1px;
 }
 
+/* Tech Stack */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-250px * 7))
+    }
+}
+
+.tech-stack {
+    background: white;
+    box-shadow: 0 -10px 20px -5px rgba(57, 67, 158, .125);
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 80%;
+    border-radius: 10px 10px 0 0;
+
+    &::before,
+    &::after {
+        background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+        content: "";
+        height: 100px;
+        position: absolute;
+        width: 200px;
+        z-index: 2;
+    }
+
+    &::after {
+        right: 0;
+        top: 0;
+        transform: rotateZ(180deg);
+    }
+
+    &::before {
+        left: 0;
+        top: 0;
+    }
+
+    .slide-track {
+        animation: scroll 30s linear infinite;
+        display: flex;
+        width: calc(200px * 12);
+    }
+
+    .slide {
+        height: 100px;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slide img {
+        height: 80px;
+        width: 80px;
+    }
+}
+
 /* About Us */
 .section-aboutUs {
     padding: 9.6rem 0;
     background: #fff;
     margin: 0 auto;
-}
-
-.about-us div {
-    padding: 100px;
-    font-size: 50px;
-}
-
-.about-us div:nth-child(1) {
-    background: #39439e;
-    color: white;
-}
-
-.about-us div:nth-child(2) {
-    background: red;
-    color: white;
-}
-
-.about-us div:nth-child(3) {
-    background: blue;
-    color: white;
-}
-
-.about-us div:nth-child(4) {
-    background: black;
-    color: white;
 }
