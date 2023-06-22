@@ -157,7 +157,7 @@ a:visited {
     /* margin: 2rem auto 0; */
     border-radius: 0 0 10px 10px;
     z-index: 10;
-    box-shadow: 0 2px 8px #525ee17e;
+    box-shadow: 0 10px 20px -5px rgba(82, 95, 255, .125);
     position: fixed;
     top: 4.8rem;
 }
@@ -186,7 +186,7 @@ a:visited {
 
 .main-nav-link:hover,
 .main-nav-link:active {
-    color: #525FE1;
+    color: #525fe1;
 }
 
 .main-nav-link.nav-cta:link,
@@ -349,7 +349,7 @@ main {
 
 .tech-stack {
     background: white;
-    box-shadow: 0 -10px 20px -5px rgba(57, 67, 158, .125);
+    box-shadow: 0 -10px 20px -5px rgba(82, 95, 255, .125);
     margin: auto;
     overflow: hidden;
     width: 70%;
