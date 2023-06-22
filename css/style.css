@@ -241,7 +241,7 @@ main {
 }
 
 .words span:nth-child(odd) {
-    color: #525FE1;
+    color: #525fe1;
 }
 
 @keyframes spin_words {
@@ -336,66 +336,68 @@ main {
 }
 
 /* Tech Stack */
-@keyframes scroll {
-    0% {
+
+@keyframes slide {
+    from {
         transform: translateX(0);
     }
 
-    100% {
-        transform: translateX(calc(-250px * 7))
+    to {
+        transform: translateX(-100%);
     }
 }
 
 .tech-stack {
     background: white;
     box-shadow: 0 -10px 20px -5px rgba(57, 67, 158, .125);
-    height: 100px;
     margin: auto;
     overflow: hidden;
-    position: relative;
-    width: 80%;
+    width: 70%;
     border-radius: 10px 10px 0 0;
-
-    &::before,
-    &::after {
-        background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
-        content: "";
-        height: 100px;
-        position: absolute;
-        width: 200px;
-        z-index: 2;
-    }
-
-    &::after {
-        right: 0;
-        top: 0;
-        transform: rotateZ(180deg);
-    }
-
-    &::before {
-        left: 0;
-        top: 0;
-    }
-
-    .slide-track {
-        animation: scroll 30s linear infinite;
-        display: flex;
-        width: calc(200px * 12);
-    }
-
-    .slide {
-        height: 100px;
-        width: 200px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .slide img {
-        height: 80px;
-        width: 80px;
-    }
+    padding: 15px 0;
+    white-space: nowrap;
+    position: relative;
+    transition: all 0.3s ease-in-out;
 }
+
+.tech-stack:hover .slide {
+    animation-play-state: paused;
+}
+
+.tech-stack::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    ;
+}
+
+.tech-stack::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+    background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    ;
+}
+
+.slide {
+    display: inline-block;
+    animation: 20s slide infinite linear;
+}
+
+.slide img {
+    height: 50px;
+    margin: 0 50px;
+}
+
 
 /* About Us */
 .section-aboutUs {
