@@ -89,6 +89,13 @@ body {
     flex-wrap: nowrap;
 }
 
+.heading-secondary {
+    font-size: 3.6rem;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #333;
+}
+
 .wrapper {
     display: flex;
     justify-content: center;
@@ -223,10 +230,6 @@ main {
     gap: 9rem;
     align-items: center;
 }
-
-/* .hero-textBox {
-    
-} */
 
 .words {
     overflow: hidden;
@@ -399,9 +402,8 @@ main {
     margin: 0 50px;
 }
 
-
-/* About Us */
-.section-aboutUs {
+/* Who we are*/
+.section-whoWeAre {
     padding: 9.6rem 0;
     background: #fff;
     margin: 0 auto;
@@ -418,13 +420,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.heading-secondary {
-    font-size: 3.6rem;
-    font-weight: 700;
-    line-height: 1.2;
-    color: #333;
 }
 
 .what-we-do .btn-wwd {
@@ -455,13 +450,13 @@ main {
     position: relative;
     z-index: 0;
     transition: all 0.3s linear;
-    cursor: pointer;
+    cursor: context-menu;
 }
 
 .box h3 {
     font-size: 2.5rem;
     padding: 20px 0;
-    color: #333;
+    color: #555;
     width: 100%;
     margin: 0 auto;
 }
@@ -512,13 +507,13 @@ main {
 }
 
 .box:nth-child(3)::after {
-    background-color: #08aeea;
-    background-image: linear-gradient(0deg, #08aeea 0%, #2af598 100%);
+    background-color: #979fed;
+    background-image: linear-gradient(0deg, #979fed 0%, #525fe1 100%);
 }
 
 .box:nth-child(4)::after {
-    background-color: #979fed;
-    background-image: linear-gradient(0deg, #979fed 0%, #525fe1 100%);
+    background-color: #08aeea;
+    background-image: linear-gradient(0deg, #08aeea 0%, #2af598 100%);
 }
 
 .box:hover::after {
@@ -535,4 +530,12 @@ main {
 
 .box:hover img {
     transform: scale(1.05);
+}
+
+/* Team */
+.section-team {
+    padding: 9.6rem 0;
+    background: #525FE1;
+    margin: 0 auto;
+    color: #fff;
 }
