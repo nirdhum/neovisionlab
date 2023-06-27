@@ -545,16 +545,16 @@ svg .polygon {
 .job-title {
     font-size: 1.8rem;
     font-weight: 400;
-    margin-top: 10px;
+    margin-top: 1.2rem;
     color: #333;
 }
 
 .bio {
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #555;
     font-weight: 300;
     margin: 10px auto;
-    line-height: 20px;
+    line-height: 2rem;
 }
 
 .social-accounts {
