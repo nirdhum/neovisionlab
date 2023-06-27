@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Raleway', sans-serif;
 }
 
 html {
@@ -29,6 +32,10 @@ body {
 
 .font-Barlow {
     font-family: 'Barlow', sans-serif !important;
+}
+
+.font-OpenSans {
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 .margin-right-small {
@@ -462,7 +469,7 @@ main {
 }
 
 .box img {
-    width: 70%;
+    width: 80%;
     margin-top: 20px;
     transition: all 0.5s ease-in-out;
 }
