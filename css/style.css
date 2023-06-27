@@ -1,142 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /* font-family: 'Inter', sans-serif; */
-    font-family: 'Raleway', sans-serif;
-}
-
-html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
-}
-
-body {
-    line-height: 1;
-    font-weight: 400;
-    color: #555;
-    background: #eeeffc;
-}
-
-.font-Inter {
-    font-family: 'Inter', sans-serif !important;
-}
-
-.font-Barlow {
-    font-family: 'Barlow', sans-serif !important;
-}
-
-.font-OpenSans {
-    font-family: 'Open Sans', sans-serif !important;
-}
-
-.margin-right-small {
-    margin-right: 1.6rem !important;
-}
-
-.company-name {
-    color: #525FE1;
-}
-
-.btn:link,
-.btn:visited {
-    display: inline-block;
-    font-size: 2rem;
-    font-weight: 500;
-    padding: 1.6rem 3.2rem;
-    border-radius: 10px;
-    text-decoration: none;
-    transition: all 0.3s ease-in-out;
-}
-
-.btn-primary:link,
-.btn-primary:visited {
-    background: #525FE1;
-    color: #fff;
-}
-
-.btn-primary:hover,
-.btn-primary:active {
-    background: #39439e;
-    color: #fff;
-
-}
-
-.btn-secondary:link,
-.btn-secondary:visited {
-    /* border: 2px solid #525FE1; */
-    color: #525FE1;
-    background: #fff;
-}
-
-.btn-secondary:hover,
-.btn-secondary:active {
-    box-shadow: inset 0 0 0 3px #525FE1;
-    background: transparent;
-}
-
-.heading-primary {
-    height: 12rem;
-    box-sizing: content-box;
-    font-size: 5.2rem;
-    font-weight: 800;
-    line-height: 1.1;
-    color: #333;
-    margin-bottom: 2.2rem;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-}
-
-.heading-secondary {
-    font-size: 3.6rem;
-    font-weight: 800;
-    line-height: 1.2;
-    color: #333;
-}
-
-.wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.center-container {
-    max-width: 144rem;
-    margin: 0 auto;
-    padding: 0 3.2rem;
-}
-
-.grid {
-    display: grid;
-    gap: 9.6rem;
-}
-
-.grid-2-col {
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.grid-3-col {
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.grid-4-col {
-    grid-template-columns: repeat(4, 1fr);
-}
-
-a:link,
-a:visited {
-    text-decoration: none;
-}
-
 /* Top Bar */
 .top-bar {
     background: #525FE1;
@@ -411,9 +272,63 @@ main {
 
 /* Who we are*/
 .section-whoWeAre {
-    padding: 9.6rem 0;
+    padding: 9.6rem 0 4.8rem;
     background: #fff;
     margin: 0 auto;
+    position: relative;
+
+}
+
+.who-we-are .heading-secondary {
+    margin-bottom: 9.6rem;
+}
+
+.wwa-img-box {
+    z-index: 1;
+}
+
+.wwa-img {
+    width: 100%;
+
+}
+
+.wwa-text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+}
+
+.wwa-text-box .btn-wwa {
+    width: fit-content;
+}
+
+.section-whoWeAre::before {
+    content: "";
+    display: block;
+    width: 75%;
+    padding-bottom: 5%;
+    background-color: #eeeffc;
+    position: absolute;
+    bottom: 4%;
+    right: 0;
+    z-index: 0;
+}
+
+.title-design {
+    font-size: 5.8rem;
+    font-weight: 800;
+    color: #cbcff6;
+    margin-bottom: 3.2rem;
+    text-shadow: 2px -2px #525FE1;
+    letter-spacing: 0.75px;
+}
+
+.wwa-description {
+    font-size: 2rem;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 3.2rem;
 }
 
 /* What we do */
@@ -544,5 +459,10 @@ main {
     padding: 9.6rem 0;
     background: #525FE1;
     margin: 0 auto;
+    color: #fff;
+}
+
+.team-heading .subheading,
+.team-heading .heading-secondary {
     color: #fff;
 }

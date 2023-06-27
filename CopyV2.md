@@ -135,3 +135,6 @@ Curious about how we create harmonious digital experiences? Unveil the answers t
 
 [Closing]
 At The Eurhythmics Lab, we live and breathe the fusion of design and technology. Our passion for innovation drives us to create extraordinary digital experiences that resonate with your audience. Join our symphony of visionaries, and together, let's redefine the possibilities of design and technology. Your journey to digital brilliance starts here. Welcome to The Eurhythmics Lab, where creativity knows no limits, and the symphony of innovation never ceases.
+
+Our Ensemble of Creative Mavericks
+Our Ensemble of Creative Maestros
