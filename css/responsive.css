@@ -120,15 +120,57 @@
     }
 
     .section-whoWeAre {
-        padding: 7.2rem 0 3.6rem;
+        padding: 3.6rem 0;
+        border-bottom: 5px dotted #525FE1;
     }
 
     .who-we-are {
         text-align: center;
     }
 
+    .section-whoWeAre .grid-2-col {
+        grid-template-columns: 1fr;
+    }
+
+    .section-whoWeAre .grid {
+        gap: 3.6rem;
+    }
+
+    .wwa-text-box {
+        align-items: center;
+    }
+
+    .who-we-are .heading-secondary {
+        margin-bottom: 3.6rem;
+    }
+
+    .title-design {
+        font-size: 3.6rem;
+        /* text-align: center; */
+        line-height: 1.2;
+    }
+
+    .heading-tertiary {
+        font-size: 1.8rem;
+        /* text-align: center; */
+        margin-bottom: 2rem
+    }
+
+    .wwa-description {
+        font-size: 1.6rem;
+        line-height: 1.6;
+        text-align: center;
+        margin-bottom: 2.4rem;
+    }
+
+    .section-whoWeAre::before {
+        padding-bottom: 12%;
+        bottom: 55%;
+    }
+
+
     .section-whatWeDo {
-        padding: 7.2rem 0 3.6rem;
+        padding: 3.6rem 0;
     }
 
     .what-we-do {
@@ -152,7 +194,7 @@
     }
 
     .section-team {
-        padding: 7.2rem 0 3.6rem;
+        padding: 3.6rem 0;
     }
 
     .team-heading {
