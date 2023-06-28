@@ -13,6 +13,7 @@
 
     <link rel="stylesheet" href="/css/general.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
 
     <title>The Eurhythmics Lab- Innovative Design and Technology Solutions</title>
 </head>
@@ -43,8 +44,8 @@
 
     <main>
         <!-- Hero Section -->
-        <section class="section-hero">
-            <div class="hero">
+        <section class="section-hero ">
+            <div class="hero hidden">
                 <div class="hero-textBox">
                     <h1 class="heading-primary">Experience the Wow of
                         <div class="words">
@@ -86,7 +87,7 @@
         </section>
 
         <!-- Tech Stack -->
-        <section class="tech-stack">
+        <section class="tech-stack hidden">
             <div class="slide">
                 <img src="/img/tech-stack/Github.png" alt="github icon">
                 <img src="/img/tech-stack/aws.png" alt="aws icon">
@@ -101,12 +102,12 @@
         </section>
 
         <!-- About Us -->
-        <section class="section-whoWeAre">
-            <div class="who-we-are center-container">
+        <section class="section-whoWeAre ">
+            <div class="who-we-are center-container hidden">
                 <span class="subheading font-OpenSans">Who we are</span>
                 <h2 class="heading-secondary">Where Creativity Finds Its Soul</h2>
             </div>
-            <div class="center-container grid grid-2-col">
+            <div id="wwa" class=" wwa center-container grid grid-2-col hidden">
                 <div class="wwa-img-box">
                     <img src="img/wwa.png" alt="" class="wwa-img">
                 </div>
@@ -124,13 +125,13 @@
         </section>
 
         <!-- What we do -->
-        <section class="section-whatWeDo" id="section-whatWeDo">
-            <div class="what-we-do center-container">
+        <section class="section-whatWeDo " id="section-whatWeDo">
+            <div class="what-we-do center-container hidden">
                 <span class="subheading font-OpenSans">What we do</span>
                 <h2 class="heading-secondary">Together, let's forge a path towards a brighter, bolder future.</h2>
                 <a href="" class="btn btn-primary btn-wwd">Unveil the Secrets!</a>
             </div>
-            <div class="center-container card-container">
+            <div class="center-container card-container hidden">
                 <div class="box">
                     <h3 class="font-OpenSans">Innovative Design Solutions</h3>
                     <img src="img/wwd/Innovative-design-sol.png" alt="">
@@ -155,12 +156,12 @@
             </div>
         </section>
 
-        <section class="section-team">
-            <div class="team-heading center-container">
+        <section class="section-team ">
+            <div class="team-heading center-container hidden">
                 <span class="subheading font-OpenSans">our team</span>
                 <h2 class="heading-secondary">The Dreamweavers: Our Squad of Creative Maestros</h2>
             </div>
-            <div class="center-container team-card">
+            <div class="center-container team-card hidden">
                 <div class="team-member">
                     <div class="card">
                         <div class="card-header" style="background-image: url(img/team/1.jpg)">
@@ -173,7 +174,7 @@
 
                         <div class="card-body">
                             <h2 class="name">Nirdhum</h2>
-                            <h4 class="job-title">Product Designer</h4>
+                            <h4 class="job-title">Founder, CEO</h4>
                             <div class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos,
                                 aperiam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, aperiam
                             </div>
@@ -200,7 +201,7 @@
 
                         <div class="card-body">
                             <h2 class="name">Anand Sindhu</h2>
-                            <h4 class="job-title">Product Designer</h4>
+                            <h4 class="job-title">Co-Founder, CDO</h4>
                             <div class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos,
                                 aperiam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, aperiam
                             </div>
@@ -227,7 +228,7 @@
 
                         <div class="card-body">
                             <h2 class="name">Manas Ranjan</h2>
-                            <h4 class="job-title">Product Designer</h4>
+                            <h4 class="job-title">Cyber Security Specialist</h4>
                             <div class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos,
                                 aperiam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, aperiam
                             </div>
@@ -254,7 +255,7 @@
 
                         <div class="card-body">
                             <h2 class="name">Sitesh Manjul</h2>
-                            <h4 class="job-title">Product Designer</h4>
+                            <h4 class="job-title">Co-Founder, DevOps Expert</h4>
                             <div class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos,
                                 aperiam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, aperiam
                             </div>
@@ -281,7 +282,7 @@
 
                         <div class="card-body">
                             <h2 class="name">Sumit Chandan</h2>
-                            <h4 class="job-title">Product Designer</h4>
+                            <h4 class="job-title">Cyber Forensics Expert</h4>
                             <div class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos,
                                 aperiam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, aperiam
                             </div>
@@ -308,7 +309,7 @@
 
                         <div class="card-body">
                             <h2 class="name">Ankit Kumar</h2>
-                            <h4 class="job-title">Product Designer</h4>
+                            <h4 class="job-title">Marketing Director</h4>
                             <div class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos,
                                 aperiam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, aperiam
                             </div>
@@ -382,9 +383,10 @@
             </div>
         </section>
     </main>
-    <!-- <script src="script.js"></script> -->
+    <script defer src="/Js/style.js"></script>
 
     <!-- <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script> -->
+
     <script>
         let copy = document.querySelector('.slide').cloneNode(true)
         document.querySelector('.tech-stack').appendChild(copy)

@@ -46,6 +46,21 @@ body {
     margin-right: 1.6rem !important;
 }
 
+@media(prefers-reduced-motion) {
+    .hidden {
+        opacity: 0;
+        filter: blur(2px);
+        transform: translateY(-10%);
+        transition: all 1s ease-in-out;
+    }
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
 .company-name {
     color: #525FE1;
 }
