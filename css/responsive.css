@@ -1,10 +1,30 @@
+/* Responsive Media Queries */
+
+/* Index Page */
+
 @media screen and (max-width: 360px) {
-    .header {
+    .header .main-nav {
         display: none;
     }
 
+    .header {
+        justify-content: center;
+        align-items: center;
+        height: 7.6rem
+    }
+
+    .logo {
+        height: 4.8rem;
+    }
+
+    .mobile-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     main {
-        margin-top: 0rem;
+        margin-top: 7.2rem;
     }
 
     .section-hero {
@@ -107,7 +127,7 @@
     }
 
     .tech-stack {
-        width: 90%;
+        width: 95%;
     }
 
     .slide {
