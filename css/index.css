@@ -616,3 +616,10 @@ svg .polygon {
     height: 25rem;
     border-radius: 10px 10px 0 0;
 }
+
+/* What We have done */
+.section-whatWeHaveDone {
+    padding: 9.6rem 0;
+    background: #525FE1;
+    margin: 0 auto;
+}
