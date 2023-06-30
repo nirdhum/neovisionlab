@@ -1,3 +1,10 @@
+// Tech Stack slider
+let copy = document.querySelector('.slide').cloneNode(true)
+document.querySelector('.tech-stack').appendChild(copy)
+
+
+// Animation on scroll effect
+
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {

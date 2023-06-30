@@ -20,7 +20,7 @@ body {
     line-height: 1;
     font-weight: 400;
     color: #555;
-    background: #eeeffc;
+    background: #dcdff9;
 }
 
 /* .font-Inter {
@@ -76,13 +76,13 @@ body {
 .btn-primary:link,
 .btn-primary:visited {
     background: #525FE1;
-    color: #fff;
+    color: #fcfcfc;
 }
 
 .btn-primary:hover,
 .btn-primary:active {
     background: #39439e;
-    color: #fff;
+    color: #fcfcfc;
 
 }
 
@@ -90,7 +90,7 @@ body {
 .btn-secondary:visited {
     /* border: 2px solid #525FE1; */
     color: #525FE1;
-    background: #fff;
+    background: #fcfcfc;
 }
 
 .btn-secondary:hover,
