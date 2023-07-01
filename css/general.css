@@ -9,6 +9,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+    /* cursor: url('img/neovisionlab-cursor.png'), auto; */
 }
 
 html {
@@ -164,6 +165,10 @@ body {
 
 .grid-4-col {
     grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-5-col {
+    grid-template-columns: repeat(5, 1fr);
 }
 
 a:link,
