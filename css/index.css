@@ -645,6 +645,78 @@ svg .polygon {
     margin: 0 auto;
 }
 
+.grid-footer {
+    grid-template-columns: 1.5fr 1.2fr 1fr 1.1fr 1fr;
+}
+
+.logo-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo {
+    display: block;
+    margin-bottom: 2.4rem;
+}
+
 .foot-logo {
     height: 4.8rem;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    gap: 2.4rem;
+}
+
+.social-icon {
+    font-size: 2.4rem;
+}
+
+.copyright {
+    font-size: 1.4rem;
+    color: #cbcff6;
+    margin-top: auto;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+
+.footer-heading {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 4.2rem;
+    letter-spacing: 2px;
+}
+
+.contacts {
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+.address {
+    margin-bottom: 2.4rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer-nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #cbcff6;
+    font-family: 'Open Sans', sans-serif;
+    transition: all 0.3s ease-in-out;
+    letter-spacing: 1px;
+}
+
+.footer-link:hover,
+.footer-link:active {
+    color: #0EED94;
 }
