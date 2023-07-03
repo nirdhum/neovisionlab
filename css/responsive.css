@@ -234,4 +234,47 @@
     .what-we-have-done {
         text-align: center;
     }
+
+    .footer {
+        padding: 3.6rem 0;
+    }
+
+    .grid-footer {
+        grid-template-columns: 1fr;
+    }
+
+    .footer .grid {
+        gap: 3.6rem;
+    }
+
+    .footer .center-container {
+        padding: 0 3.2rem 5.2rem;
+    }
+
+    .foot-logo {
+        height: 3.6rem;
+    }
+
+    .social-links {
+        margin-bottom: 2.4rem;
+        gap: 1.4rem;
+    }
+
+    .footer-heading {
+        font-size: 1.6rem;
+        margin-bottom: 1.8rem;
+        letter-spacing: 2px;
+    }
+
+    .address {
+        margin-bottom: 1.4rem;
+    }
+
+    .contacts {
+        font-size: 1.4rem;
+    }
+
+    .footer-nav {
+        gap: 2.2rem;
+    }
 }
