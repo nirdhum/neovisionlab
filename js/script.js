@@ -57,6 +57,4 @@ const swiper = new Swiper(".team-card", {
     },
 })
 
-console.log(swiper);
-
 
