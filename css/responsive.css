@@ -247,6 +247,35 @@
         text-align: center;
     }
 
+    .section-whatOurClientsSay {
+        padding: 3.4rem 0;
+    }
+
+    .what-clients-say {
+        text-align: center;
+    }
+
+    .section-testimonials {
+        margin-top: 1.4rem;
+    }
+
+    .section-testimonials.grid-2-col {
+        grid-template-columns: 1fr;
+    }
+
+    .section-testimonials.center-container {
+        padding: 0;
+    }
+
+    .testimonials {
+        padding: 1.4rem 0;
+        width: 90%;
+    }
+
+    .testimonials-wrapper {
+        width: 100vw;
+    }
+
     .footer {
         padding: 3.6rem 0;
     }

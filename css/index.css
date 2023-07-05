@@ -680,9 +680,91 @@ svg .polygon {
     margin: 3.2rem 0;
 }
 
-.testimonial-img {
-    width: 100px;
+.section-testimonials {
+    margin-top: 3.4rem;
 }
+
+.section-testimonials.grid {
+    align-items: center;
+    gap: 0;
+}
+
+.testimonials {
+    padding: 3.4rem 7.4rem;
+    width: 100%;
+}
+
+.testimonials-wrapper {
+    width: 30vw;
+}
+
+.testimonials .swiper-pagination-bullet {
+    background: #525FE1;
+}
+
+.testimonial {
+    background: #525FE1;
+    color: #f2f2f2;
+    padding: 3.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    border-radius: 10px;
+    align-items: start;
+    height: 100%;
+}
+
+/* .testimonial.swiper-slide {
+    width: fit-content;
+} */
+
+.testimonial-img {
+    width: 10rem;
+    border-radius: 10%;
+}
+
+.testimonial-text {
+    font-size: 1.8rem;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+.testimonial-name {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.gallery {
+    /* height: 50vh; */
+    overflow: hidden;
+}
+
+.row {
+    display: -ms-flexbox;
+    /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 2px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%;
+    /* IE 10 */
+    flex: 25%;
+    padding: 0 2px;
+}
+
+.column img {
+    margin-top: 4px;
+    vertical-align: middle;
+}
+
+/* .gallery-img {
+    width: 50%;
+} */
 
 /* Footer */
 .footer {
