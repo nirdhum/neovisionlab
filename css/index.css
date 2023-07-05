@@ -734,9 +734,15 @@ svg .polygon {
     font-weight: 600;
 }
 
+.client-company {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
 .gallery {
     /* height: 50vh; */
     overflow: hidden;
+    border-radius: 10px;
 }
 
 .row {
