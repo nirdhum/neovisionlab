@@ -512,11 +512,33 @@ main {
     color: #fcfcfc;
 }
 
-.team-member {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+.team-card {
+    background: #525FE1;
+    width: 100%;
+    max-width: 144rem;
+    overflow: hidden;
+    padding: 0 6.4rem;
+    border-radius: 10px;
+}
+
+.swiper-btn {
+    color: #eeeffc;
+    background-color: #525FE1;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+
+.swiper-button-next {
+    right: 10;
+}
+
+.swiper-button-prev {
+    left: 10;
+}
+
+.swiper-pagination-bullet {
+    background: #eeeffc;
 }
 
 .card {
@@ -623,7 +645,7 @@ svg .polygon {
 /* What We have done */
 .section-whatWeHaveDone {
     padding: 9.6rem 0;
-    /* background: #fcfcfc; */
+    background: #fcfcfc;
     margin: 0 auto;
 }
 
@@ -636,6 +658,29 @@ svg .polygon {
 .what-we-have-done .btn-wwhd {
     height: fit-content;
     margin: 3.2rem 0;
+}
+
+/* What our clients say */
+
+.section-whatOurClientsSay {
+    padding: 9.6rem 0;
+    background: #eeeffc;
+    margin: 0 auto;
+}
+
+.what-clients-say {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.what-clients-say .btn-wwhd {
+    height: fit-content;
+    margin: 3.2rem 0;
+}
+
+.testimonial-img {
+    width: 100px;
 }
 
 /* Footer */

@@ -222,8 +222,20 @@
         text-align: center;
     }
 
+    .team-card {
+        width: 100%;
+        padding: 0 3.2rem;
+    }
+
+    .swiper-btn {
+        display: none;
+    }
+
     .card {
         margin: 1.5rem auto;
+        width: 30rem;
+        /* Remove for full width */
+        height: 45rem;
     }
 
     .section-whatWeHaveDone {
