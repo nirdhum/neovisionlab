@@ -499,7 +499,7 @@ main {
 /* Team */
 .section-team {
     padding: 9.6rem 0;
-    background: #525FE1;
+    background: #4a56cb;
     margin: 0 auto;
 }
 
@@ -513,20 +513,21 @@ main {
 }
 
 .team-card {
-    background: #525FE1;
     width: 100%;
     max-width: 144rem;
     overflow: hidden;
     padding: 0 6.4rem;
     border-radius: 10px;
+    background: #525fe1 !important;
 }
 
 .swiper-btn {
-    color: #eeeffc;
-    background-color: #525FE1;
+    color: #525fe1;
+    background-color: #eeeffc;
     width: 8rem;
     height: 8rem;
     border-radius: 50%;
+    --swiper-navigation-size: 3.2rem;
 }
 
 .swiper-button-next {
