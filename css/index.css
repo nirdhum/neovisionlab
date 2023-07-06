@@ -691,7 +691,6 @@ svg .polygon {
     border-radius: 10px;
     /* background: #eeeffc; */
     width: fit-content;
-    margin-top: 3.2rem;
 }
 
 .work-category {
@@ -715,8 +714,8 @@ svg .polygon {
     display: flex;
     flex-wrap: wrap;
     gap: 2.4rem;
+    margin-top: 3.2rem;
 }
-
 
 .work-img {
     width: 100%;
