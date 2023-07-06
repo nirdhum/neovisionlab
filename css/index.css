@@ -715,6 +715,8 @@ svg .polygon {
     flex-wrap: wrap;
     gap: 2.4rem;
     margin-top: 3.2rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .work-img {

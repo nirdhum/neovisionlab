@@ -1,6 +1,661 @@
 /* Responsive Media Queries */
 
 /* Index Page */
+@media screen and (max-width: 420px) {
+    .header .main-nav {
+        display: none;
+    }
+
+    .header {
+        justify-content: center;
+        align-items: center;
+        height: 7.6rem
+    }
+
+    .logo {
+        height: 4.8rem;
+    }
+
+    .mobile-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        margin-top: 7.2rem;
+    }
+
+    .section-hero {
+        padding: 7.2rem 0 3.6rem;
+    }
+
+    .hero {
+        max-width: 144rem;
+        margin: 0 auto;
+        padding: 0 3.2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+    }
+
+    .hero-textBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .heading-primary {
+        height: 14rem;
+        font-size: 4.2rem;
+        text-align: center;
+    }
+
+    .words span {
+        font-size: 2.4rem;
+    }
+
+    @keyframes spin_words {
+        10% {
+            transform: translateY(-130%);
+        }
+
+        25% {
+            transform: translateY(-150%);
+        }
+
+        35% {
+            transform: translateY(-260%);
+        }
+
+        50% {
+            transform: translateY(-300%);
+        }
+
+        60% {
+            transform: translateY(-380%);
+        }
+
+        75% {
+            transform: translateY(-430%);
+        }
+
+        85% {
+            transform: translateY(-550%);
+        }
+
+        95% {
+            transform: translateY(10%);
+        }
+
+        100% {
+            transform: translateY(0%);
+        }
+    }
+
+    .btn:link,
+    .btn:visited {
+        font-size: 1.6rem;
+    }
+
+    .hero-description {
+        font-size: 1.6rem;
+        margin-bottom: 2.4rem;
+        line-height: 1.5;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .margin-right-small {
+        margin-bottom: 1.6rem !important;
+        margin-right: 0 !important;
+    }
+
+    .tech-preview {
+        display: flex;
+        margin-top: 3.4rem;
+        align-items: center;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .tech-text {
+        font-size: 1.4rem;
+    }
+
+    .tech-stack {
+        width: 95%;
+    }
+
+    .slide {
+        animation: 12s slide infinite linear;
+    }
+
+    .slide img {
+        height: 40px;
+        margin: 0 30px;
+    }
+
+    .section-whoWeAre {
+        padding: 3.6rem 0;
+        border-bottom: 5px dotted #525FE1;
+    }
+
+    .who-we-are {
+        text-align: center;
+    }
+
+    .section-whoWeAre .grid-2-col {
+        grid-template-columns: 1fr;
+    }
+
+    .section-whoWeAre .grid {
+        gap: 3.6rem;
+    }
+
+    .wwa-text-box {
+        align-items: center;
+    }
+
+    .who-we-are .heading-secondary {
+        margin-bottom: 3.6rem;
+    }
+
+    .title-design {
+        font-size: 3.6rem;
+        /* text-align: center; */
+        line-height: 1.2;
+    }
+
+    .heading-tertiary {
+        font-size: 1.8rem;
+        /* text-align: center; */
+        margin-bottom: 2rem
+    }
+
+    .wwa-description {
+        font-size: 1.6rem;
+        line-height: 1.6;
+        text-align: center;
+        margin-bottom: 2.4rem;
+    }
+
+    .section-whoWeAre::before {
+        padding-bottom: 12%;
+        bottom: 55%;
+    }
+
+
+    .section-whatWeDo {
+        padding: 3.6rem 0;
+    }
+
+    .what-we-do {
+        text-align: center;
+    }
+
+    .work-categories {
+        flex-wrap: wrap;
+        gap: 1.4rem;
+        padding: 0;
+    }
+
+    .work-category {
+        font-size: 1.4rem;
+    }
+
+    .heading-secondary {
+        font-size: 2.4rem;
+    }
+
+    .subheading {
+        font-size: 1.2rem;
+    }
+
+    .what-we-do .btn-wwd {
+        margin: 1.2rem 0;
+    }
+
+    .box h3 {
+        font-size: 1.8rem;
+    }
+
+    .section-team {
+        padding: 3.6rem 0;
+    }
+
+    .team-heading {
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .team-card {
+        width: 100%;
+        padding: 0 3.2rem;
+    }
+
+    .swiper-btn {
+        display: none;
+    }
+
+    .card {
+        margin: 1.5rem auto;
+        width: 30rem;
+        /* Remove for full width */
+        height: 45rem;
+    }
+
+    .section-whatWeHaveDone {
+        padding: 3.6rem 0;
+        margin: 0 auto;
+    }
+
+    .what-we-have-done {
+        text-align: center;
+    }
+
+    .section-whatOurClientsSay {
+        padding: 3.4rem 0;
+    }
+
+    .what-clients-say {
+        text-align: center;
+    }
+
+    .section-testimonials {
+        margin-top: 1.4rem;
+    }
+
+    .section-testimonials.grid-2-col {
+        grid-template-columns: 1fr;
+    }
+
+    .section-testimonials.center-container {
+        padding: 0;
+    }
+
+    .testimonials {
+        padding: 1.4rem 0;
+        width: 90%;
+    }
+
+    .testimonials-wrapper {
+        width: 100vw;
+    }
+
+    .footer {
+        padding: 3.6rem 0;
+    }
+
+    .grid-footer {
+        grid-template-columns: 1fr;
+    }
+
+    .footer .grid {
+        gap: 3.6rem;
+    }
+
+    .footer .center-container {
+        padding: 0 3.2rem 5.2rem;
+    }
+
+    .foot-logo {
+        height: 3.6rem;
+    }
+
+    .social-links {
+        margin-bottom: 2.4rem;
+        gap: 1.4rem;
+    }
+
+    .footer-heading {
+        font-size: 1.6rem;
+        margin-bottom: 1.8rem;
+        letter-spacing: 2px;
+    }
+
+    .address {
+        margin-bottom: 1.4rem;
+    }
+
+    .contacts {
+        font-size: 1.4rem;
+    }
+
+    .footer-nav {
+        gap: 2.2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header .main-nav {
+        display: none;
+    }
+
+    .header {
+        justify-content: center;
+        align-items: center;
+        height: 7.6rem
+    }
+
+    .logo {
+        height: 4.8rem;
+    }
+
+    .mobile-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        margin-top: 7.2rem;
+    }
+
+    .section-hero {
+        padding: 7.2rem 0 3.6rem;
+    }
+
+    .hero {
+        max-width: 144rem;
+        margin: 0 auto;
+        padding: 0 3.2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+    }
+
+    .hero-textBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .heading-primary {
+        height: 14rem;
+        font-size: 4.2rem;
+        text-align: center;
+    }
+
+    .words span {
+        font-size: 2.4rem;
+    }
+
+    @keyframes spin_words {
+        10% {
+            transform: translateY(-130%);
+        }
+
+        25% {
+            transform: translateY(-150%);
+        }
+
+        35% {
+            transform: translateY(-260%);
+        }
+
+        50% {
+            transform: translateY(-300%);
+        }
+
+        60% {
+            transform: translateY(-380%);
+        }
+
+        75% {
+            transform: translateY(-430%);
+        }
+
+        85% {
+            transform: translateY(-550%);
+        }
+
+        95% {
+            transform: translateY(10%);
+        }
+
+        100% {
+            transform: translateY(0%);
+        }
+    }
+
+    .btn:link,
+    .btn:visited {
+        font-size: 1.6rem;
+    }
+
+    .hero-description {
+        font-size: 1.6rem;
+        margin-bottom: 2.4rem;
+        line-height: 1.5;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .margin-right-small {
+        margin-bottom: 1.6rem !important;
+        margin-right: 0 !important;
+    }
+
+    .tech-preview {
+        display: flex;
+        margin-top: 3.4rem;
+        align-items: center;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .tech-text {
+        font-size: 1.4rem;
+    }
+
+    .tech-stack {
+        width: 95%;
+    }
+
+    .slide {
+        animation: 12s slide infinite linear;
+    }
+
+    .slide img {
+        height: 40px;
+        margin: 0 30px;
+    }
+
+    .section-whoWeAre {
+        padding: 3.6rem 0;
+        border-bottom: 5px dotted #525FE1;
+    }
+
+    .who-we-are {
+        text-align: center;
+    }
+
+    .section-whoWeAre .grid-2-col {
+        grid-template-columns: 1fr;
+    }
+
+    .section-whoWeAre .grid {
+        gap: 3.6rem;
+    }
+
+    .wwa-text-box {
+        align-items: center;
+    }
+
+    .who-we-are .heading-secondary {
+        margin-bottom: 3.6rem;
+    }
+
+    .title-design {
+        font-size: 3.6rem;
+        /* text-align: center; */
+        line-height: 1.2;
+    }
+
+    .heading-tertiary {
+        font-size: 1.8rem;
+        /* text-align: center; */
+        margin-bottom: 2rem
+    }
+
+    .wwa-description {
+        font-size: 1.6rem;
+        line-height: 1.6;
+        text-align: center;
+        margin-bottom: 2.4rem;
+    }
+
+    .section-whoWeAre::before {
+        padding-bottom: 12%;
+        bottom: 55%;
+    }
+
+
+    .section-whatWeDo {
+        padding: 3.6rem 0;
+    }
+
+    .what-we-do {
+        text-align: center;
+    }
+
+    .work-categories {
+        flex-wrap: wrap;
+        gap: 1.4rem;
+        padding: 0;
+    }
+
+    .work-category {
+        font-size: 1.4rem;
+    }
+
+    .heading-secondary {
+        font-size: 2.4rem;
+    }
+
+    .subheading {
+        font-size: 1.2rem;
+    }
+
+    .what-we-do .btn-wwd {
+        margin: 1.2rem 0;
+    }
+
+    .box h3 {
+        font-size: 1.8rem;
+    }
+
+    .section-team {
+        padding: 3.6rem 0;
+    }
+
+    .team-heading {
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .team-card {
+        width: 100%;
+        padding: 0 3.2rem;
+    }
+
+    .swiper-btn {
+        display: none;
+    }
+
+    .card {
+        margin: 1.5rem auto;
+        width: 30rem;
+        /* Remove for full width */
+        height: 45rem;
+    }
+
+    .section-whatWeHaveDone {
+        padding: 3.6rem 0;
+        margin: 0 auto;
+    }
+
+    .what-we-have-done {
+        text-align: center;
+    }
+
+    .section-whatOurClientsSay {
+        padding: 3.4rem 0;
+    }
+
+    .what-clients-say {
+        text-align: center;
+    }
+
+    .section-testimonials {
+        margin-top: 1.4rem;
+    }
+
+    .section-testimonials.grid-2-col {
+        grid-template-columns: 1fr;
+    }
+
+    .section-testimonials.center-container {
+        padding: 0;
+    }
+
+    .testimonials {
+        padding: 1.4rem 0;
+        width: 90%;
+    }
+
+    .testimonials-wrapper {
+        width: 100vw;
+    }
+
+    .footer {
+        padding: 3.6rem 0;
+    }
+
+    .grid-footer {
+        grid-template-columns: 1fr;
+    }
+
+    .footer .grid {
+        gap: 3.6rem;
+    }
+
+    .footer .center-container {
+        padding: 0 3.2rem 5.2rem;
+    }
+
+    .foot-logo {
+        height: 3.6rem;
+    }
+
+    .social-links {
+        margin-bottom: 2.4rem;
+        gap: 1.4rem;
+    }
+
+    .footer-heading {
+        font-size: 1.6rem;
+        margin-bottom: 1.8rem;
+        letter-spacing: 2px;
+    }
+
+    .address {
+        margin-bottom: 1.4rem;
+    }
+
+    .contacts {
+        font-size: 1.4rem;
+    }
+
+    .footer-nav {
+        gap: 2.2rem;
+    }
+}
 
 @media screen and (max-width: 360px) {
     .header .main-nav {
