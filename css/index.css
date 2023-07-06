@@ -697,17 +697,17 @@ svg .polygon {
     font-size: 1.8rem;
     font-weight: 600;
     padding: 1.4rem;
-    color: #868fea;
+    color: #757fe7;
     letter-spacing: 1px;
-    border: 3px solid #868fea;
+    border: 3px solid #757fe7;
     cursor: pointer;
     transition: all 0.2s;
     border-radius: 10px;
 }
 
 .work-category:nth-child(n):hover {
-    color: #424cb4;
-    border: 3px solid #424cb4;
+    color: #eeeffc;
+    background: #525FE1;
 }
 
 .work-preview {
