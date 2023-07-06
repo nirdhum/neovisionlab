@@ -23,6 +23,8 @@
     font-weight: 600;
 }
 
+/* ----------------------------------------------------------- */
+
 /* Nav section */
 
 .header {
@@ -120,6 +122,8 @@
 .mobile-nav-link:active {
     color: #0eed94;
 }
+
+/* ----------------------------------------------------------- */
 
 /* Hero section */
 main {
@@ -249,6 +253,8 @@ main {
     letter-spacing: 1px;
 }
 
+/* --------------------------------------------------------- */
+
 /* Tech Stack */
 
 @keyframes slide {
@@ -312,6 +318,8 @@ main {
     margin: 0 50px;
 }
 
+/* ------------------------------------------------------- */
+
 /* Who we are*/
 .section-whoWeAre {
     padding: 9.6rem 0 4.8rem;
@@ -372,6 +380,8 @@ main {
     text-align: justify;
     margin-bottom: 3.2rem;
 }
+
+/* --------------------------------------------------------- */
 
 /* What we do */
 .section-whatWeDo {
@@ -495,6 +505,8 @@ main {
 .box:hover img {
     transform: scale(1.05);
 }
+
+/* ----------------------------------------------------------- */
 
 /* Team */
 .section-team {
@@ -643,6 +655,8 @@ svg .polygon {
     border-radius: 10px 10px 0 0;
 }
 
+/* --------------------------------------------------------- */
+
 /* What We have done */
 .section-whatWeHaveDone {
     padding: 9.6rem 0;
@@ -660,6 +674,39 @@ svg .polygon {
     height: fit-content;
     margin: 3.2rem 0;
 }
+
+.section-portfolio {
+    /* background: #eeeffc; */
+}
+
+.work-categories {
+    display: flex;
+    gap: 2.4rem;
+    align-items: center;
+    justify-content: center;
+    padding: 2.4rem 0;
+    border-radius: 10px;
+    background: #eeeffc;
+}
+
+.work-category {
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 1.4rem;
+    color: #868fea;
+    letter-spacing: 1px;
+    border: 3px solid #868fea;
+    cursor: pointer;
+    transition: all 0.2s;
+    border-radius: 10px;
+}
+
+.work-category:nth-child(n):hover {
+    color: #424cb4;
+    border: 3px solid #424cb4;
+}
+
+/* ------------------------------------------------ */
 
 /* What our clients say */
 
@@ -766,11 +813,14 @@ svg .polygon {
 .column img {
     margin-top: 4px;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 /* .gallery-img {
     width: 50%;
 } */
+
+/* -------------------------------------------------------------------- */
 
 /* Footer */
 .footer {
