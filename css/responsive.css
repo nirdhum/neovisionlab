@@ -2,6 +2,12 @@
 
 /* Index Page */
 @media screen and (max-width: 420px) {
+
+    .toTop {
+        bottom: 7rem;
+        font-size: 2.4rem;
+    }
+
     .header .main-nav {
         display: none;
     }
@@ -330,6 +336,12 @@
 }
 
 @media screen and (max-width: 400px) {
+
+    .toTop {
+        bottom: 7rem;
+        font-size: 2.4rem;
+    }
+
     .header .main-nav {
         display: none;
     }
@@ -658,6 +670,12 @@
 }
 
 @media screen and (max-width: 360px) {
+
+    .toTop {
+        bottom: 7rem;
+        font-size: 2.4rem;
+    }
+
     .header .main-nav {
         display: none;
     }

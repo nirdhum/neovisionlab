@@ -14,7 +14,7 @@ const toTop_btn = document.getElementById('toTop')
 window.onscroll = function () { scrollToTop() }
 
 function scrollToTop() {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
         toTop_btn.style.display = "block";
     } else {
         toTop_btn.style.display = "none";
