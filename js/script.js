@@ -7,6 +7,24 @@ document.getElementById('year').innerHTML = (new Date().getFullYear())
 let copy = document.querySelector('.slide').cloneNode(true)
 document.querySelector('.tech-stack').appendChild(copy)
 
+// Scroll To Top
+
+const toTop_btn = document.getElementById('toTop')
+
+window.onscroll = function () { scrollToTop() }
+
+function scrollToTop() {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        toTop_btn.style.display = "block";
+    } else {
+        toTop_btn.style.display = "none";
+    }
+}
+
+toTop_btn.addEventListener('click', function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+})
 
 // Animation on scroll effect
 

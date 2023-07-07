@@ -1,5 +1,22 @@
 /* Index Page */
 
+.toTop {
+    position: fixed;
+    bottom: 2rem;
+    right: 3rem;
+    z-index: 99;
+    font-size: 3.2rem;
+    background: #fff;
+    padding: 1.4rem;
+    border-radius: 10px;
+    color: #525FE1;
+    box-shadow: -5px 5px rgba(4, 8, 53, 0.411);
+    cursor: pointer;
+    border: none;
+    outline: 2px solid #525FE1;
+    display: none;
+}
+
 /* Top Bar */
 .top-bar {
     background: #10132d;
